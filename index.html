@@ -12,19 +12,13 @@ layout: default
     </div>
 </div>
 <div class="row">
-    <div class="col-md-6">
-        <p>myopenHAB is an instance of the <a href="https://github.com/openhab/openhab-cloud/blob/master/README.md">openHAB Cloud service</a>, which is hosted by the openHAB Foundation e.V.</p>
-		<p>The openHAB Cloud service is useful for different use cases:</p>
-		<ul>
-			<li>It allows remote access to local openHAB instances without having to expose ports to the Internet or to require a complex VPN setup.</li>
-			<li>It serves as a connector to Google Cloud Messaging (GCM) and Apple Push Notifications (APN) for pushing notifications to mobile phone apps.</li>
-			<li>It brings integration possibilities with services that require an OAuth2 authentication against a web server, such as IFTTT or Amazon Alexa Skills.</li>
-		</ul>
-		<p>We are offering this service completely for free. It is meant to allow users to quickly check out its features without having to set up and host a personal instance. Although it is mainly meant as a demonstrator, it is absolutely fine to use it for your production system as well. You must be aware though that we cannot offer any SLAs regarding availability etc, but we promise to keep it up and running to the best of our capabilities. Please read our <a href="terms.html">Terms of Use</a> for all details.</p>
-        <p>In order to use myopenHAB, you will need to install the openHAB Cloud Connector bundle. Please check the documentation for <a href="https://github.com/openhab/openhab/wiki/openHAB-Cloud-Connector">openHAB 1.8</a> or for <a href="https://github.com/openhab/openhab2-addons/blob/master/addons/io/org.openhab.io.openhabcloud/README.md#openhab-cloud-connector">openHAB 2.0</a>.
-		<p>If you want to use myopenHAB through your native Android and iOS apps, please enter "https://myopenhab.org" as a remote url and your myopenHAB account username and password as credentials.
-    </div>
-    
+    <div class="col-md-8">
+        <p>myopenHAB is an instance of the <a href="https://github.com/openhab/openhab-cloud/blob/master/README.md">openHAB Cloud service</a>, which is hosted by the <a href="http://www.openhabfoundation.org/">openHAB Foundation e.V.</a></p>
+        
+		<p>We are offering this service completely for free. It is meant to allow users to quickly check out its features without having to set up and host a personal instance.</p>
+		
+		<p>Although it is mainly meant as a demonstrator, it is absolutely fine to use it for your production system as well. You must be aware though that we cannot offer any SLAs regarding availability etc, but we promise to keep it up and running to the best of our capabilities. Please read our <a href="terms.html">Terms of Use</a> for all details.</p>
+	</div>
 	<!-- Sidebar Widgets Column -->
 	<div class="col-md-4">
 
@@ -35,6 +29,159 @@ layout: default
 				href="https://myopenhab.org/login">Register / Login<span class="glyphicon"></span>
 			</a>
 		</div>
-
 	</div>
+</div>        
+<div class="row">
+    <div class="col-lg-12">
+        <h3 class="page-header">Features of the openHAB Cloud service</h3>
+    </div>
+	<div class="col-md-4">
+        <div class="media">
+            <div class="pull-left">
+                <span class="fa-stack fa-2x">
+                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                      <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+                </span>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">Remote Access</h4>
+                <p>It allows remote access to local openHAB instances without having to expose ports to the Internet or to require a complex VPN setup.</p>
+            </div>
+        </div>
+    </div>
+	<div class="col-md-4">
+        <div class="media">
+            <div class="pull-left">
+                <span class="fa-stack fa-2x">
+                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                      <i class="fa fa-bomb fa-stack-1x fa-inverse"></i>
+                </span>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">Push Notifications</h4>
+                <p>It serves as a connector to Google Cloud Messaging (GCM) and Apple Push Notifications (APN) for pushing notifications to mobile phone apps.</p>
+            </div>
+        </div>
+    </div>
+	<div class="col-md-4">
+        <div class="media">
+            <div class="pull-left">
+                <span class="fa-stack fa-2x">
+                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                      <i class="fa fa-bomb fa-stack-1x fa-inverse"></i>
+                </span>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">3rd Party App Integration</h4>
+                <p>It brings integration possibilities with services that require an OAuth2 authentication against a web server, such as IFTTT or Amazon Alexa Skills.</p>
+            </div>
+        </div>
+    </div>
 </div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <h3 class="page-header">Setup and Configuration</h3>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-8">
+    	<h4>openHAB Runtime</h4>
+        <p>In order to use myopenHAB, you will need to install and configure the openHAB Cloud Connector bundle on your local openHAB runtime. This bundle establishes the connection to myopenHAB.org and authenticates against it.<p>
+        <p>Please check the documentation for <a href="https://github.com/openhab/openhab/wiki/openHAB-Cloud-Connector">openHAB 1.8</a> or for <a href="http://docs.openhab.org/addons/io/openhabcloud/readme.html">openHAB 2.0</a> (requires a recent snapshot).</p>
+    </div>
+    <div class="col-md-4">
+         <img class="img-responsive img-hover" src="/images/connector.png" alt="">
+    </div>
+</div>
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+         <img class="img-responsive img-hover" src="/images/web.png" alt="">
+    </div>
+    <div class="col-md-8">
+    	<h4>Web Access</h4>
+		<p>Once you have successfully set up the cloud connector, you can log in at <a href="https://myopenhab.org">https://myopenhab.org</a>, which gives you remote web access to the web UIs of your openHAB runtime and also let's you check for the state of exposed items, notifications and events.
+    </div>
+</div>    
+<hr/>
+<div class="row">
+    <div class="col-md-9">
+    	<h4>Mobile Apps</h4>
+		<p>If you want to use myopenHAB through your native Android, iOS or Pebble apps, please enter "https://myopenhab.org" as a remote url and your myopenHAB account username and password as credentials.
+    </div>
+    <div class="col-md-3">
+         <img class="img-responsive img-hover" src="/images/app.jpg" alt="">
+    </div>
+</div>    
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+         <img class="img-responsive img-hover" src="/images/notification.jpg" alt="">
+    </div>
+    <div class="col-md-8">
+    	<h4>Push Notifications</h4>
+		<p>Once you have set up your mobile app to connect to myopenHAB, it will automatically register itself to receive notifications. Now you can use special actions in your openHAB rules to send notifications:</p>
+                    <p class="text-info">
+                        <strong>Example:</strong> <code class="html">sendNotification("your@email.address", "Hello world!")</code>
+                    </p>
+                    <p>
+                        This will send a notification with "Hello world!" to your device. If you use multiply devices with the
+                        same account configured, all of them will receive this notifications.
+                    </p>
+                    <p class="text-info">
+                        <strong>Example:</strong> <code class="html">sendBroadcastNotification("Hello world!")</code>
+                    </p>
+                    <p>
+                        This will send a notification with "Hello world!" to all devices of all users of your myopenHAB account.
+                    </p>
+                    <p class="text-info">
+                        <strong>Example:</strong> <code class="html">sendLogNotification("Hello world!")</code>
+                    </p>
+                    <p>
+                        This will send a log notification with "Hello world!". Log notifications are not sent to devices, they
+                        are merely kept in the notifications list and are available in the <a href="https://myopenhab.org/notifications">notifications area</a> of myopenHAB and the mobile apps.
+                    </p>
+                    <p>
+                        You can test if notifications are correctly sent to any of your mobile devices by going to the <a href="https://myopenhab.org/">devices section</a>
+                        section and sending test message.
+                    </p>
+    </div>
+</div>    
+<hr/>
+<div class="row">
+    <div class="col-md-9">
+    	<h4>Status Notifications</h4>
+		<p>Every time your openHAB connects to myopenHAB or disconnects from it, you will automatically receive a notification to your devices telling you if openHAB is online or offline. myopenHAB has a 300 seconds (5 minute) delay on sending those notifications. When your openHAB goes offline we will wait for 5 minutes. If your openHAB goes online during this period, nothing will happen and we will not bother you. If not, we will notify you that your openHAB is offline.</p>
+    </div>
+    <div class="col-md-3">
+         <img class="img-responsive img-hover" src="/images/notification2.png" alt="">
+    </div>
+</div>    
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+         <img class="img-responsive img-hover" src="/images/ifttt-meets-openhab.jpg" alt="">
+    </div>
+    <div class="col-md-8">
+    	<h4>IFTTT (available from December 17)</h4>
+		<p>Activating <a href="https://www.ifttt.com">IFTTT</a> integration is easy. Just log in to your IFTTT account and activate the openHAB channel. You will be forwarded to the myopenHAB website to authorize the IFTTT channel connection. Before you start creating IFTTT recipes you need to make sure that you have your runtime configured to expose certain items to myopenHAB. Only those items will be visible to IFTTT. You will also be able to send commands to those items from IFTTT recipes. Items will appear in myopenHAB and thus in IFTTT only after at least one state update has been received by myopenHAB from your runtime.<p>
+
+		<p>You can delete the IFTTT authorization token in the myopenHAB "applications" section at any time.
+    </div>
+</div>    
+<hr/>
+<div class="row">
+    <div class="col-md-8">
+    	<h4>Amazon Echo (available soon!)</h4>
+		<p>We have submitted the <a href="https://github.com/openhab/openhab-alexa">openHAB Alexa Smart Home skill</a> to Amazon and are waiting for its approval.</p>
+		<p>Once it is available, you can simply activate this skill in your Alexa app. You need to make sure that all items that you want to control through your Amazon Echo are correctly tagged (similar to the <a href="http://docs.openhab.org/addons/io/homekit/readme.html#item-configuration">Homekit integration</a> and that you have enabled remote access in your cloud connector.
+		<p>The current skill is a pure <a href="https://developer.amazon.com/alexa/smart-home">smart home skill</a>, i.e. it is not required to say "ask openhab", but you can directly say stuff like "turn the table light on".
+		<p>Please note that the Amazon Echo integration only works with openHAB 2.</p>
+    </div>
+    <div class="col-md-4">
+         <img class="img-responsive img-hover" src="/images/echo.jpg" alt="">
+    </div>
+</div>    
+    
+    
