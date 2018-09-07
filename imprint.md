@@ -1,19 +1,8 @@
 ---
-layout: default
 title: Imprint
 ---
-<!-- Page Heading/Breadcrumbs -->
-<div class="row">
-    <div class="col-lg-12">
-        <h1 class="page-header">Imprint
-        </h1>
-        <ol class="breadcrumb">
-            <li><a href="index.html">Home</a>
-            </li>
-            <li class="active">Imprint</li>
-        </ol>
-    </div>
-</div>
+
+# Imprint
 
 ### This Site is operated by
 
@@ -30,6 +19,14 @@ Information provided according to Sec. 5 German Telemedia Act (TMG)
 <p>Kai Kreuzer, President<br />Dan Cunningham, Vice President<br />Hans-Jörg Merk, Chief Financial Officer</p>
 <p>Register of Associations: Darmstadt 83855</p>
 
+### Responsible for Journalistic-Editorial Contents
+
+<p>Kai Kreuzer<br />
+Kollwitzweg 10<br />
+64372 Ober-Ramstadt</p>
+
+Information provided according to Sec. 55, para. 2 German Federal Broadcasting Agreement (RstV)
+
 ### Privacy Statement
 
 openHAB Foundation respects your desire for privacy. Please see our [Privacy Policy](/privacy.html) 
@@ -40,6 +37,14 @@ regarding the use of our website and the mobile reference applications.
 openHAB is a registered trademark of Kai Kreuzer in the EU, the US and other countries.
 
 Rules for the re-use of the openHAB logo can be found [here](https://www.openhab.org/about/logos.html).
+
+### Icon Attribution
+
+Certain icons on this site's home page are made by these authors from [Flaticon](https://www.flaticon.com):
+
+[Srip](https://www.flaticon.com/authors/srip),
+[Freepik](https://www.flaticon.com/authors/freepik),
+[itim2101](https://www.flaticon.com/authors/itim2101).
 
 ### Liability for Contents
 

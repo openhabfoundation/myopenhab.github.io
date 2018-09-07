@@ -1,27 +1,15 @@
 ---
-layout: default
 title: Privacy Policy
 ---
-<script>function gaOptout() {document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';window[disableStr] = true;alert("Google Analytics has been disabled!");}</script>
-<!-- Page Heading/Breadcrumbs -->
-<div class="row">
-    <div class="col-lg-12">
-        <h1 class="page-header">Privacy Policy
-        </h1>
-        <ol class="breadcrumb">
-            <li><a href="/">Home</a>
-            </li>
-            <li class="active">Privacy Policy</li>
-        </ol>
-    </div>
-</div>
+
+# Privacy Policy
 
 ## An overview of data protection
 
 ### General
 
 The following gives a simple overview of what happens to your personal information when
-you visit our website. Personal information is any data with which you could be
+you visit our website. Personal information is any data with which you could be 
 personally identified. Detailed information on the subject of data protection can be
 found in our privacy policy found below.
 
