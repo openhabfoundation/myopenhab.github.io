@@ -1,7 +1,7 @@
 module.exports = {
   title: 'myopenHAB',
   description: 'myopenHAB is an instance of the openHAB Cloud service, which is hosted by the openHAB Foundation e.V.',
-  dest: 'docs',
+  dest: 'vuepress',
   host: 'localhost',
   ga: 'UA-89041046-2',
   head: [
