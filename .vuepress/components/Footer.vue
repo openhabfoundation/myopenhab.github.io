@@ -8,6 +8,7 @@
     <div class="legal">
       <span class="copyright">Copyright © {{year}} by the openHAB Foundation e.V.</span>
       <br />
+      <router-link to="/terms.html">Terms of Use</router-link> |
       <router-link to="/privacy.html">Privacy policy</router-link> |
       <router-link to="/imprint.html">Imprint</router-link>
     </div>

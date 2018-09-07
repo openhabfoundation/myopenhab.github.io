@@ -1,6 +1,6 @@
 <h1 class="big-title header">Welcome to <em>my</em><img style="vertical-align: bottom; margin-left: 3px;" src="/openhab.png"></h1>
 
-<h2 class="subtitle">myopenHAB is an instance of the <a href="https://github.com/openhab/openhab-cloud">openHAB Cloud service</a>, which is hosted by the <a href="https://www.openhabfoundation.org/">openHAB Foundation e.V.</a></h2>
+<h2 class="subtitle">myopenHAB is an instance of the <a target="_blank" href="https://github.com/openhab/openhab-cloud">openHAB Cloud service</a>, which is hosted by the <a target="_blank" href="https://www.openhabfoundation.org/">openHAB Foundation e.V.</a></h2>
 
 <img class="slide-illustration jumbotron-illustration" src="/images/hero.jpg" alt="">
 
@@ -8,7 +8,7 @@ We are offering this service completely for free. It is meant to allow users to 
 
 Although it is mainly meant as a demonstrator, it is absolutely fine to use it for your production system as well. You must be aware though that we cannot offer any SLAs regarding availability etc, but we promise to keep it up and running to the best of our capabilities. Please read our [Terms of Use](terms.html) for all details.
 
-If you use and love this free service, please consider becoming a member of the openHAB Foundation or do a one-time donation, which will allow us to move forward and further work in the interest of the openHAB community!
+If you use and love this free service, please consider becoming a member of the openHAB Foundation or do a [one-time donation](https://www.openhab.org/about/donate.html), which will allow us to move forward and further work in the interest of the openHAB community!
 
 <div style="text-align: center">
 <a class="sign-up-button" href="https://myopenhab.org/login">Sign up Now ➜</a>
@@ -25,7 +25,7 @@ If you use and love this free service, please consider becoming a member of the 
           </div>
           <div class="panel-heading">
             <h4>Remote Access</h4>
-            <p>Access your local openHAB instances without having to expose ports to the Internet or requiring a complex VPN setup.</p>
+            <p>Access your local openHAB instances securely without having to expose ports to the Internet or requiring a complex VPN setup.</p>
           </div>
         </div>
       </div>
@@ -47,7 +47,7 @@ If you use and love this free service, please consider becoming a member of the 
           </div>
           <div class="panel-heading">
             <h4>3rd Party App Integration</h4>
-            <p>Connect your openHAB smart home to cloud-based platform and services such as IFTTT, Amazon Alexa or Google Assistant.</p>
+            <p>Connect your openHAB smart home to cloud-based platforms and services such as IFTTT, Amazon Alexa or Google Assistant.</p>
           </div>
         </div>
       </div>
@@ -74,7 +74,7 @@ Please check the documentation for openHAB 1.8 or for openHAB 2 (requires a rece
 
 ### Web Access
 
-Once you have successfully set up the cloud connector, you can log in here at [https://myopenhab.org/login](https://myopenhab.org/login), which gives you remote web access to the web UIs of your openHAB runtime and also let's you check for the state of exposed items, notifications and events.
+Once you have successfully set up the cloud connector, you can log in here at [https://myopenhab.org/login](https://myopenhab.org/login), which gives you remote web access to the web UIs of your openHAB runtime and also lets you check the state of exposed items, notifications and events.
 
 <div style="clear:both"></div>
 
@@ -82,7 +82,7 @@ Once you have successfully set up the cloud connector, you can log in here at [h
 
 ### Mobile Apps
 
-If you want to use myopenHAB through your native Android, iOS or Pebble apps, please enter `https://myopenhab.org` as a remote url and your myopenHAB account username and password as credentials.
+If you want to use myopenHAB through your native Android, iOS or Pebble apps, please enter `https://myopenhab.org` as a remote URL, and your myopenHAB account username and password as credentials.
 
 <div style="clear:both"></div>
 
@@ -90,11 +90,11 @@ If you want to use myopenHAB through your native Android, iOS or Pebble apps, pl
 
 ### Push Notifications
 
-Once you have set up your mobile app to connect to myopenHAB, it will automatically register itself to receive notifications. Now you can use special actions in your openHAB rules to send notifications. Below are some examples.
+Once you have set up your mobile app to connect to myopenHAB, it will automatically register itself to receive push notifications. Now you can use special actions in your openHAB rules to send notifications. Below are some examples.
 
 <div style="clear:both"></div>
 
-- This will send a notification with "Hello world!" to your device. If you use multiply devices with the same account configured, all of them will receive this notifications:
+- This will send a notification with "Hello world!" to your device. If you use multiple devices with the same account configured, all of them will receive the notification:
 
 ```java
 sendNotification("your@email.address", "Hello world!")
@@ -106,21 +106,21 @@ sendNotification("your@email.address", "Hello world!")
 sendBroadcastNotification("Hello world!")
 ```
 
-- This will send a log notification with "Hello world!". Log notifications are not sent to devices, they are merely kept in the notifications list and are available in the notifications area of myopenHAB and the mobile apps:
+- This will send a log notification with "Hello world!". Log notifications are not sent to devices, they are only kept in the notifications list and are available in the notifications area of myopenHAB and the mobile apps:
 
 ```java
 sendLogNotification("Hello world!")
 ```
 
 ::: tip
-You can test if notifications are correctly sent to any of your mobile devices by going to the devices section section and sending a test message.
+You can test whether notifications are correctly sent to any of your mobile devices by going to the _Devices_ section of myopenHAB.org and sending a test message.
 :::
 
 <img src="./images/notification2.png" style="float:left; margin: 1rem;">
 
 ### Status Notifications
 
-Every time your openHAB connects to myopenHAB or disconnects from it, you will automatically receive a notification to your devices telling you if openHAB is online or offline. myopenHAB has a 300 seconds (5 minute) delay on sending those notifications. When your openHAB goes offline we will wait for 5 minutes. If your openHAB goes online during this period, nothing will happen and we will not bother you. If not, we will notify you that your openHAB is offline.
+Every time your openHAB connects to myopenHAB or disconnects from it, you will automatically receive a notification to your devices telling you that openHAB went online or offline. myopenHAB has a 300 seconds (5 minute) delay for sending those notifications. When your openHAB goes offline we will wait for 5 minutes. If your openHAB goes online during this period, nothing will happen and we will not bother you. If not, we will notify you that your openHAB is offline.
 
 <div style="clear:both"></div>
 
@@ -156,7 +156,7 @@ Please note that the Amazon Echo integration only works with openHAB 2.
 
 We have published a [Google Assistant Action](https://assistant.google.com/services/a/uid/000000f5c61c627e?hl=en-US&source=web), based on the [code](https://github.com/openhab/openhab-google-assistant) that is maintained by the community.
 
-The openHAB Action links your openHAB setup through the myopenHAB.org cloud service to the Google Assistant platform (for technical insights, please refer to this guide to read more about setup options and development information).
+The openHAB Action links your openHAB setup through the myopenHAB.org cloud service to the Google Assistant platform (for technical insights, please refer to the link above to read more about setup options and development information).
 
 With the Action you can voice control your openHAB items and it supports lights, plugs, switches and thermostats. The openHAB Action comes with multiple language support like English, German or French.
 

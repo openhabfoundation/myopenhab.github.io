@@ -25,7 +25,7 @@ module.exports = {
       },
       {
         text: 'openHAB.org',
-        link: 'https://www.myopenhab.org/'
+        link: 'https://www.openhab.org/'
       }
     ]
   }
