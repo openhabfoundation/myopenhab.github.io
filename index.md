@@ -90,7 +90,7 @@ If you want to use myopenHAB through your native Android, iOS or Pebble apps, pl
 
 ### Push Notifications
 
-Once you have set up your mobile app to connect to myopenHAB, it will automatically register itself to receive push notifications. Now you can use special actions in your openHAB rules to send notifications. Below are some examples.
+Once you have set up your mobile app to connect to myopenHAB, it will automatically register itself to receive push notifications. Now you can use special actions in your openHAB rules to send notifications - below are some examples.
 
 <div style="clear:both"></div>
 

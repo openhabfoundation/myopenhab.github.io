@@ -15,9 +15,13 @@ module.exports = {
     ['meta', { property: 'og:description', content: 'myopenHAB is an instance of the openHAB Cloud service, which is hosted by the openHAB Foundation e.V.' }],
   ],
   serviceWorker: false,
+  markdown: {
+    anchor: { permalink: false, permalinkBefore: false, permalinkSymbol: '$' }
+  },
   themeConfig: {
     logo: `/logo.png`,
     editLinks: false,
+    activeHeaderLinks: false,
     search: false,
     nav: [
       { text: 'Register | Login ➜',

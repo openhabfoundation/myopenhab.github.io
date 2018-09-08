@@ -4,6 +4,8 @@
     //opacity 0.9
 
 .navbar
+    .links
+        background-color inherit
     .nav-dropdown
         // background-color white
         background-color rgba(98%, 98%, 99%, 0.96) !important
@@ -31,6 +33,8 @@
                 color #ff6600
                 padding-left 0.5rem
                 padding-right 0.5rem
+                line-height 1.9rem
+                vertical-align top
                 a
                     font-weight bold
                 &:hover
@@ -143,6 +147,11 @@ h2.subtitle
   &.header
       font-size 3rem
 
+a[href*='myopenhab.org'] .outbound
+        display none
+
+.header-anchor
+    display none
 
 img.illustration
     width 50%
@@ -160,6 +169,8 @@ img.illustration
     .features
         border-top none
         margin-top 0
+    .feature p
+        color black
 
 .custom-block.tip
     border-color #2196f3 !important
