@@ -1,4 +1,4 @@
-<h1 class="big-title header">Welcome to <em>my</em><img style="vertical-align: bottom; margin-left: 3px;" src="/openhab.png"></h1>
+<h1 class="big-title header">Welcome to <em>my</em><img style="vertical-align: bottom; margin-left: 5px;" class="openhab-header" src="/openhab.png"></h1>
 
 <h2 class="subtitle">myopenHAB is an instance of the <a target="_blank" href="https://github.com/openhab/openhab-cloud">openHAB Cloud service</a>, which is hosted by the <a target="_blank" href="https://www.openhabfoundation.org/">openHAB Foundation e.V.</a></h2>
 
