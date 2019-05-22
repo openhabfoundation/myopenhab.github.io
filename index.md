@@ -36,7 +36,7 @@ If you use and love this free service, please consider becoming a member of the 
           </div>
           <div class="panel-heading">
             <h4>Push Notifications</h4>
-            <p>Receive push notifications on your smartphone through a connection to Google Cloud Messaging (GCM) or Apple Push Notifications (APN).</p>
+            <p>Receive push notifications on your smartphone through a connection to Firebase Cloud Messaging (FCM) or Apple Push Notifications (APN).</p>
           </div>
         </div>
       </div>
